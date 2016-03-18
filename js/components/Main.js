@@ -1,5 +1,6 @@
 import React from "react";
 import API from '../api';
+import LinkStore from '../stores/LinkStore';
 
 export default class Main extends React.Component {
   componentDidMount() {
