@@ -1,5 +1,3 @@
-import Flux from 'flux';
+import { Dispatcher } from 'flux';
 
-let AppDispatcher = new Flux.Dispatcher();
-
-export default AppDispatcher;
+export default new Dispatcher();;
